@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+/* .header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(images/banner.png);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+} */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7%;
+}
+nav .logo {
+  width: 140px;
+  cursor: pointer;
+}
+
+.nav-links li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+.register-btn {
+  text-decoration: none;
+  padding: 8px 20px;
+  margin-top: 10px;
+  background-color: #ff5361;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.list-container {
+  margin: 0 7%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.left-col {
+  flex-basis: 70%;
+}
+.right-col {
+  flex-basis: 25%;
+}
+.left-col h1 {
+  color: #333;
+  font-weight: 600;
+}
+.house {
+  display: flex;
+  gap: 10px;
+  border-top: 2px solid #ccc;
+  /* flex-wrap: wrap;   */
+  padding: 30px 0;
+}
+.house-img {
+  flex-basis: 40%;
+}
+.house-info {
+  flex-basis: 58%;
+  color: #555;
+}
+.house-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+.house-info h3 {
+  font-weight: 600;
+  color: #333;
+  font-size: 22px;
+  margin: 4px 0;
+}
+.house-info i {
+  color: #ff5361;
+  margin: 4px 1px;
+}
+.house-price {
+  text-align: right;
+}
+.house-price h4 {
+  font-size: 20px;
+}
+.house-price h4 span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.sidebar {
+  border: 1px solid #999;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+.sidebar h3 {
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+.sidebar h2 {
+  font-weight: 500;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  color: #555;
+  margin-bottom: 10px;
+}
+.filter p {
+  flex: 1;
+}
+.filter input {
+  margin: 15px;
+  cursor: pointer;
+}
+.sidebar-link {
+  text-align: right;
+  margin: 20px 0;
+}
+.sidebar-link a {
+  text-decoration: none;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+.pagination img {
+  width: 15px;
+  margin: 10px 20px;
+}
+.pagination .right-arrow {
+  transform: rotate(180deg);
+}
+.pagination span {
+  width: 40px;
+  height: 40px;
+  margin: 10px 8px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pagination .current {
+  background: #333;
+  color: #fff;
+}
